@@ -35,4 +35,6 @@ public:
     string decodeString(string s) {
         int i = 0;
         return solve(s, i);
+    }
+};
 
