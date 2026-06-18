@@ -14,7 +14,7 @@ public:
             if (st.empty()) {
                 result[i] = 0;
             } else {
-                result[i] = st.top() - i; // days
+                result[i] = st.top() - i; 
             }
 
             st.push(i);
